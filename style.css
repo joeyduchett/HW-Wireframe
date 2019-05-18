@@ -8,6 +8,7 @@
  * {
      margin: 5px 5px 5px 5px;
      text-align: center;
+     transition: .5s;
  }
  h1 {
     background: #ebebeb;
@@ -52,6 +53,7 @@
      height: 30%;
      line-height: 60px;
      margin: 8px 18px 8px 18px;
+     z-index: 1;
  }
  p {
     color: #777;
@@ -60,19 +62,52 @@
     height: 30%;
     line-height: 60px;
     margin: 8px 18px 8px 18px;
+    z-index: 1;
  }
  aside {
     width: 370px;
     height: 300px;
     background: #ebebeb;
     float: left;
+    padding-left: 15px;
     margin: 5px 0px 10px 10px;
  }
  footer {
     background: #ebebeb;
-    clear:both;
+    clear: both;
     width: 960px;
     height: 60px;
     padding-top: 35px;
     margin-top: 10px;
  }
+
+ h1:hover {
+   background: blue;
+   transform: scale(1.02, 1.02);
+ }
+ nav:hover {
+    background-color: purple;
+    transform: scale(1.02, 1.02);
+       }
+ h4:hover {
+    background-color: red;
+    transform: scale(1.02, 1.02);
+    }
+ p:hover {
+    background-color: yellow;
+    transform: scale(1.02, 1.02);
+    }
+ aside:hover {
+    background-color: green;
+    transform: scale(1.02, 1.02);
+    }
+footer:hover {
+    background-color: orange;
+   transform: scale(1.02, 1.02);
+}
+section:hover {
+   background-color: cornflowerblue;
+}
+article:hover {
+   background-color: indigo;
+}
